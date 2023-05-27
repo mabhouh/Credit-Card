@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 30rem;
+    width: 100%;
+}
+
+input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font: inherit;
+    width: auto;
+}
+
+input::placeholder{
+    color: #5a5858;
+}
+
+label{
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+    background-color: #171a1c;
+    border-radius: 14px;
+    color: #bebebe;
+    padding: 32px;
+}
+
+.header{
+    margin-bottom: 7rem;
+}
+
+.title{
+    color: #fff;
+    float: left;
+    font-size: 1.5rem;
+}
+
+.logo{
+    float: right;
+    width: 85px;
+}
+
+.row{
+    margin-bottom: 1.5rem;
+}
+
+.content{
+    margin-bottom: 5rem;
+}
+
+.content input{
+    outline: none;
+}
+
+.card-number{
+    font-size: 32px;
+}
+
+.card-expire{
+    float: left;
+}
+
+.card-expire input{
+    font-size: 0.9rem;
+}
+
+.card-expire-month{
+    width: 90px;
+}
+
+.card-expire-month , .card-expire-year{
+    float: left;
+}
+
+.card-cvv{
+    float: right;
+}
+
+.card-cvv input{
+    width: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
